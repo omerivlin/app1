@@ -28,8 +28,8 @@
 	<preference name="DisallowOverscroll" value="true" />
 
 	<!-- Plugins -->
-	<gap:plugin name="org.apache.cordova.media" />
-	<preference name='phonegap-version' value='cli-5.1.1' />
+	<gap:plugin name="org.apache.cordova.media" source="npm"/>
+	<preference name='phonegap-version' value='cli-5.2.0' />
 	<preference name="permissions" value="none"/>
 	<!--
 	<feature name="http://api.phonegap.com/1.0/device" />
