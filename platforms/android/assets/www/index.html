@@ -1,0 +1,69 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>הספריה</title>
+    <link rel="stylesheet"  href="css/pictureflip.css">  
+    <link rel="stylesheet"  href="css/main.css">
+
+    <script src="phonegap.js"></script>	
+    <script src="http://debug.phonegap.com/target/target-script-min.js#elad@elad"></script>
+    
+    <!-- JQuery -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.3/jquery.mobile-1.4.3.min.js"></script>
+    
+    <!-- JS libs -->
+    <script type="text/javascript" src="lib/modernizr.js"></script>
+    <script type="text/javascript" src="lib/jquery.pictureflip.js"></script> 
+    
+    <script type="text/javascript" src="lib/ jquery.animate-enhanced.min.js"></script> 
+   
+    <!-- Request JS -->  
+    <script type="text/javascript" src="js/getStories.js"></script>
+    <script type="text/javascript" src="js/getStoryById.js"></script>
+    
+    <script type="text/javascript">
+     clickFlag = false;
+     //On Device ready function
+		document.addEventListener("deviceready", function()
+		{
+		alert("deviceready"); 
+			function begin()
+			{
+				alert("in-begin");
+			}
+
+			
+			/*                                       
+		             //Move to 2nd stage
+			$('#page_zero').click(function (e)
+			{
+				alert("stage2")	
+			});
+            */                             
+			
+			
+
+			
+			alert("before-begin");
+			begin();
+		},true);
+	
+	
+		
+
+
+		
+   </script>
+
+  </head>
+  <body>
+  <div id="page_zero" class="page">
+  A SIMPLE TEST
+  </div> 
+    
+  </body>
+</html>
